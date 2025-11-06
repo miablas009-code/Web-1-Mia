@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&display=swap");
+
+h1 {
+  /*Declaracion= Propiedad:valor;*/
+  font-family: "Bitcount Single Ink", system-ui;
+}
+body {
+  background-origin: red;
+}
+#perfil-img {
+  width: 200px;
+}
+
+.primero {
+  font-family: "Julee", cursive;
+}
+body {
+  background-color: rgb(225, 162, 241);
+  border-radius: 50px;
+}
+
+body {
+  background-origin: green;
+}
+/* p{
+    /*RGB=red,green,blue*/
+/*0------>F red/#FF0000*/
+/*0------>255*/
+
+a {
+  color: rgb(255, 77, 160);
+}
+
+i {
+  color: aquamarine;
+  font: size 160px;
+}
+
+li {
+  display: inline;
+  /* arriba, izq, abajo, derecha */
+  margin: 10px;
+  padding: 10px;
+  padding-top: 10px;
+  /*padding-top: 70px; */
+  border: solid 3px;
+  color: red;
+  border-radius: 10px;
+}
+
+main {
+  width: 88%;
+  margin: 10px 80%;
+}
+
+.primero {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.grilla {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 150px 150px 150px;
+
+
+}
+
+.grilla img{
+  width: 85%;
+  height: 85%;
+}
+.img1{
+  grid-row: 1/4;
+  grid-column: 3/4;
+}
+.img2{
+  grid-row: 1/4;
+  grid-column: 2/3
+}
+.img3 {
+  grid-row: 1/4;
+  grid-column: 1/2;
+}
+
+@media (max-width:780px) {
+  h1{
+    font-size: 150px;
+    background-color: aqua;
+  }
+  
+}
+
+a.visited{
+  color:aliceblue
+}
+
+h2{
+  font-size: 25px;
+  color:red
+}
+li:hover{
+ color: blue;
+  transition: color 0s ease-in-out;
+  transform: scale 1;
+}
+
+.carousel-item img{
+  height: 400px;
+}
+#carouselExample{
+  display: block;
+  width: 80%;
+  margin: 0px auto;
+}
